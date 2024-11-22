@@ -1,0 +1,221 @@
+/***** Body *****/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-align: center;
+  color: #171717;
+  background-color: #F4F4F4;
+}
+
+/***** Header *****/
+.logoheader {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  padding: 3%;
+}  
+.header {
+  text-align: center;
+  background: #94b9ffa9;
+}
+
+/***** Footer *****/
+.footer {
+  padding: 2%;
+  background: #94b9ffa9;
+  line-height: 0.5;
+  align-items: stretch;
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer-left, .footer-right {
+  flex: 1;
+}
+
+.footer-left {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.footer-right {
+  text-align: right;
+  margin-right: 10%;
+}
+
+.Linktree {
+  padding: 18px 2% 4% 2%;
+  line-height: 0.5;
+  justify-content: left;
+  display: flex;
+}
+
+.Mitmachen {
+  padding: 18px 2% 4% 2%;
+  line-height: 0.5;
+  justify-content: left;
+  display: flex;
+}
+
+.Spenden {
+  padding: 18px 2% 4% 2%;
+  line-height: 0.5;
+  justify-content: left;
+  display: flex;
+}
+.Statuten {
+  padding: 18px 2% 4% 2%;
+  line-height: 0.5;
+  justify-content: left;
+  display: flex;
+}
+
+.a-footer{
+  color: #3f1185;
+  text-decoration: none;
+}
+.a-footer:hover{
+  color: #1e76e9;
+}
+
+/***** Icons *****/
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  max-width: 20px;
+  min-width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  background: #1368DA;
+  color: white;
+}
+.fa:hover {
+  background-color: #1e76e9;
+}
+
+/***** Icons Kontakt*****/
+.icon-whatsapp {
+  background: #25D366;
+}
+.icon-telegram {
+  background: #229ED9;
+}
+.icon-envelope {
+  background: #004f9f;
+}
+.icon-instagram {
+  background: #bc2a8d;
+}
+  
+  
+  
+  
+  /***** Buttons *****/
+  .button {
+    color: rgb(98, 33, 85);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    background-color: rgba(159, 193, 188, 0.426); 
+    color: black; 
+    border: 2px solid black;
+  }
+  
+  .button2:hover {
+    background-color: #9fc1bc;
+    color: black;
+  }
+  
+  
+  /***** Buttons Kontakt *****/
+  .buttonkontakt {
+    color: rgb(162, 43, 139);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.156); 
+    color: black; 
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 280px;
+    justify-content: center;
+  }
+  
+  .buttonwhatsapp {
+    color: black; 
+    border: 2px solid black;
+  }
+  .buttonwhatsapp:hover {
+    background-color: #25d36550;
+    color: black;
+  }
+  
+  .buttontelegram {
+    color: black; 
+    border: 2px solid black;
+  }
+  .buttontelegram:hover {
+    background-color: #229fd953;
+    color: black;
+  }
+  
+  .buttonenvelope {
+    color: black; 
+    border: 2px solid black;
+  }
+  .buttonenvelope:hover {
+    background-color: #00509f4d;
+    color: black;
+  }
+  
+  .buttonenvelope1 {
+    color: black; 
+    background-color: #36a34e4b;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonenvelope1:hover {
+    background-color: #36a34eac;
+    color: black;
+  }
+  
+  .buttoninstagram {
+    color: black; 
+    border: 2px solid black;
+  }
+  .buttoninstagram:hover {
+    background-color: #bc2a8e3c;
+    color: black;
+  }
+  
+  .buttondiscord {
+    background-color: #7289daa2;
+    color: black; 
+    border: 2px solid black;
+  }
+  .buttondiscord:hover {
+    background-color: #7289da;
+    color: black;
+  }
+  
+  .buttongooglecalendar {
+    width: 40px;
+    border: 2px solid black;
+    color: black;
+  }

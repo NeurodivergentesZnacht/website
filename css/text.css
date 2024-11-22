@@ -1,0 +1,73 @@
+/***** Text *****/
+h1{
+  font-size: 32px;
+  text-align: center;
+  padding-top: 2%;
+  margin: 0 10% 0 10%;
+}
+.text {
+  padding: 0 2% 2% 2%;
+  text-align: justify;
+  margin: 0 10% 0 10%;
+}
+.text-begriff-nd {
+  padding: 2%;
+  text-align: justify;
+  margin: 0 10% 5% 10%;
+  font-size: 12px;
+  border-style: solid;
+  border-color: #94b9ffa9;
+  border-radius: 20px;
+}
+.text-hs {
+  padding: 1% 2% 1% 2%;
+  text-align: center;
+  margin: 2% 10% 2% 10%;
+  border-style: solid;
+  border-color: #EC36E1;
+}
+
+/***** Events *****/
+.event-card {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  border-style: solid;
+  border-color: #94b9ffa9;
+}
+.event-header {
+  background-color: #94b9ff4e;
+  text-align: center;
+  padding: 0.5%;
+}
+.event-content {
+  padding: 2%;
+  text-align: justify;
+  background: white(194, 52, 52);
+}
+
+  .t-left, .t-right {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .t-left {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .t-right {
+    text-align: right;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+
+  
+  .anmeldung {
+    padding: 2%;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
