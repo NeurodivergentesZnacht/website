@@ -28,18 +28,70 @@ h1{
 }
 
 /***** Events *****/
+
+/* Umrahmung Kästchen*/
+
 .event-card {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 2%;
   border-style: solid;
-  border-color: #94b9ffa9;
+  border-color: #1e76e9;
 }
+
+.event-card-öff {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  border-style: solid;
+  border-color: #97d5e8;
+}
+
+.event-card-team {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  border-style: solid;
+  border-color: #ef8eda;
+}
+
+.event-card-blog-pod {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  border-style: solid;
+  border-color: #b99aff;
+}
+
+
+/* Füllfarbe Kästchen*/
+
 .event-header {
-  background-color: #94b9ff4e;
+  background-color: #94b9ff;
   text-align: center;
   padding: 0.5%;
 }
+
+.event-header-öff {
+  background-color: #97d5e8;
+  text-align: center;
+  padding: 0.5%;
+}
+
+.event-header-team {
+  background-color: #ef8eda;
+  text-align: center;
+  padding: 0.5%;
+}
+
+.event-header-blog-pod {
+  background-color: #b99aff;
+  text-align: center;
+  padding: 0.5%;
+}
+
+/* Format Inhalt Kästchen*/
+
 .event-content {
   padding: 2%;
   text-align: justify;
@@ -64,7 +116,7 @@ h1{
   }
 
 
-  
+
   .anmeldung {
     padding: 2%;
     text-align: justify;

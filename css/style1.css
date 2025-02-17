@@ -4,7 +4,7 @@ body {
   margin: 0;
   text-align: center;
   color: #171717;
-  background-color: #F4F4F4;
+  background-color: #ffffff;
 }
 
 /***** Header *****/
@@ -16,13 +16,13 @@ body {
 }  
 .header {
   text-align: center;
-  background: #94b9ffa9;
+  background: hsl(219, 100%, 79%);
 }
 
 /***** Footer *****/
 .footer {
   padding: 2%;
-  background: #94b9ffa9;
+  background: #94b9ff;
   line-height: 0.5;
   align-items: stretch;
   justify-content: space-between;
@@ -155,9 +155,9 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: rgba(128, 128, 128, 0.156); 
-    color: black; 
+    color: white; 
     border: 2px solid black;
-    border-radius: 8px;
+    border-radius: 0;
     width: 280px;
     justify-content: center;
   }
@@ -190,15 +190,15 @@ body {
   }
   
   .buttonenvelope1 {
-    color: black; 
-    background-color: #36a34e4b;
-    border: 2px solid black;
+    color: white; 
+    background-color: #1e76e9;
+    border: 2px solid #1e76e9 ;
     justify-content: center;
     align-items: center;
   }
   .buttonenvelope1:hover {
-    background-color: #36a34eac;
-    color: black;
+    background-color: hsl(219, 100%, 79%) ;
+    color: white;
   }
   
   .buttoninstagram {

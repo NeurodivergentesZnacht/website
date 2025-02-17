@@ -3,13 +3,13 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 2%;
-    border: solid 3px black;
-    border-radius: 20px;
-    background-color: #3434dd31;
+    border: solid 3px hsl(258, 100%, 70%);
+    border-radius: 0%;
+    background-color: #b99aff;
     transition: 0.3s;
 }
 .blog-card:hover {
-    background-color: #3434dd77;
+    background-color: hsl(258, 100%, 70%);
 }
 .blog-card-title{
     font-size: 25px;
